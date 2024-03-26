@@ -47,4 +47,3 @@ print(a)
 
 a //= 256
 print(a)
-
