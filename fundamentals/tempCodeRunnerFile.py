@@ -1,15 +1,26 @@
-#logical operators
-print (True or False)
-print (7 != 3 and 2 > 3)
+nome = 'exemplo'
+print(nome)
 
-#and
-print (True and True)
-print (True and False)
-print (False and True)
-print (False and True)
+print('You are ' + 3 * 'very ' + 'nice!' )
+print([1, 2, 3]) #list
+print({'name': 'Pedro', 'age' : 22 }) #dictionary
+print(None)
+print(True) #boolean
+print(False) #boolean
+print(1.2 + 1) #float
 
-#or
-print (True or True)
-print (True or False)
-print (False or True)
-print (False or False)
+a = 10
+b = 5.2
+
+print(a + b)
+a = 'Hello'
+print(a)
+
+#numbers = ([10, 20, 30])
+#print(sum(numbers))
+
+a=['10']
+b=['20']
+c=['30']
+r= a+b+c
+print('r={r}')
